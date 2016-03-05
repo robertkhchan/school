@@ -1,0 +1,46 @@
+POS Tagger
+
+Baseline
+- POS = left3words-distsim
+- 2014 Sentences: Correct=31469.0, Incorrect=10385.0, Accuracy=75.18755674487504
+- Training Error: 27.810% Correct=112660.0, Incorrect=43400.0, Accuracy=72.19018326284761
+- Testing Error:  35.357% 0.64643
+
+Tokenize Whitespace
+- 2014 Sentences: Correct=31469.0, Incorrect=10385.0, Accuracy=75.18755674487504
+- Training Error: 27.802% Correct=112672.0, Incorrect=43388.0, Accuracy=72.19787261309753
+- Testing Error:  35.344% 0.64656
+
++ SSplit End-of-Line
+- 2014 Sentences: Correct=31466.0, Incorrect=10388.0, Accuracy=75.18038897118555
+- Training Error: 27.804% Correct=112669.0, Incorrect=43391.0, Accuracy=72.19595027553505
+- Testing Error:  35.342% 0.64658
+
++ SSplit One Sentence
+- 2014 Sentences: Correct=31466.0, Incorrect=10388.0, Accuracy=75.18038897118555
+- Testing Error: 0.64658
+
++ POS BiDirectional
+- 2014 Sentences: Correct=31499.0, Incorrect=10355.0, Accuracy=75.25923448176997
+- Testing Error: 0.64625
+
++ NER conll closed iob2
+- 2014 Sentences: Correct=31466.0, Incorrect=10388.0, Accuracy=75.18038897118555
+- Testing Error: 0.64658
+
++ NER conll distsim iob2
+- 2014 Sentences: Correct=31466.0, Incorrect=10388.0, Accuracy=75.18038897118555
+- Testing Error: 0.64658
+
++ RegexNER Type_Map_Clean
+- 2014 Sentences: Correct=31466.0, Incorrect=10388.0, Accuracy=75.18038897118555
+- Testing Error: 0.64658
+
++ RegnexNER Movie
+- 2014 Sentences: Correct=31469.0, Incorrect=10385.0, Accuracy=75.18755674487504
+- Testing Error: 0.64643
+
++ Parser RNN
+- 2014 Sentences: Correct=31419.0, Incorrect=10435.0, Accuracy=75.06809385005018
+- Testing Error: 0.64598
+
